@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <style>
+        .main{
+            padding: 30px;
+            background-color: black;
+            height: 400px;
+            width: 400px;
+            border: 3px dashed pink;
+            display: flex;
+        }
+        .type input{
+            border: 2px solid yellow;
+/* position: absolute;
+right: 400px;
+top: 100px; */
+
+height: 30px;padding: 12px;
+border-radius: 20px;
+cursor: pointer;
+
+
+        }
+        .search{
+            padding: 12px;
+            background-color: brown;
+            height: 30px;
+            width: 30px;
+            border: 2px solid yellow;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .type:hover{
+            background-color: #000000;
+    color: white;
+        }
+        .search:hover{
+            background-color: #eae4e4;
+    color: white;
+        }
+        button:hover {
+    background-color: #000000;
+    color: white; /* Change background color on hover */
+}
+        button{
+            padding: 12px;
+
+            height: 55px;
+            width: 180px;
+            border: 2px solid yellow;
+border-radius: 20px;
+cursor: pointer;
+
+        }
+    </style>
+    <div class="main">
+        <div class="type"> <input type="text" placeholder="type your mess here "></div>
+        <div class="search"><img src="logo.svg" alt="" height="30px"></div>
+        <div class="speak">
+            <button  onclick="startListening()">
+speak here
+            </button>
+            <p id="output"></p>
+        </div>
+    </div>
+    <div class="ques">
+        <H1>WHAT JARVIS CAN SEARCH</H1>
+        <P>
+            <li>hello</li>
+            <li>what time it is</li>
+            <li>what is your name</li>
+            <li>open google</li>
+            <li>open youtube</li>
+            <li>open instagram</li>
+            <li>open whatsapp</li>
+          
+        </P>
+    </div>
+    <script src="1.js"></script>
+    <div style="background-color: black; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: white; width: 450px; border: 4px solid rgb(53, 62, 56);"> BY: RV</div>
+</body>
+</html>
